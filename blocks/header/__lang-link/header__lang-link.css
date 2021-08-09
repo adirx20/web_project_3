@@ -4,4 +4,6 @@
     font-weight: normal;
     display: flex;
     gap: 18px;
+    align-self: flex-end;
+    font-weight: normal;
 }
