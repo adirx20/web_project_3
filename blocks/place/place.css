@@ -1,0 +1,10 @@
+.place {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 80px;
+}
+
+.place:nth-child(5n + 5) {
+    margin-bottom: 92px;
+}

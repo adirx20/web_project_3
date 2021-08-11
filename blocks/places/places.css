@@ -1,0 +1,6 @@
+.places {
+    max-width: 984px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 92px auto 0;
+}
