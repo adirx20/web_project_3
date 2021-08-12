@@ -2,5 +2,8 @@
     width: 1184px;
     height: 740px;
     background-image: url('../../../images/cover_background.jpg');
+    display: flex;
+    flex-direction: column;
     position: relative;
     z-index: 0;
+}

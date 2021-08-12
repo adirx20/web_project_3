@@ -2,7 +2,14 @@
     max-width: 1280px;
     background-color: rgba(42, 44, 47, 1);
     margin: 0 auto;
-    padding-top: 34px;
+    padding:34px 0 24px;
     color: rgba(255, 255, 255, 1);
     font-family: 'Inter';
+}
+
+@media screen and (min-width: 1280) {
+    .page {
+        max-width: 1280px;
+        padding: 34px 0 24px;
+    } 
 }

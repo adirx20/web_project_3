@@ -4,4 +4,9 @@
     font-size: 18px;
     font-weight: normal;
     color: rgba(255, 255, 255, 1);
+    transition: opacity .5s linear;
+}
+
+.place__website_type_link:hover {
+    opacity: .8;
 }
