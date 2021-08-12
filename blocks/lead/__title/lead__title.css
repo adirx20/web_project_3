@@ -1,8 +1,36 @@
 .lead__title {
+    max-width: 720px;
+    width: calc((720 / 984) * 100%);
     line-height: 1.04;
     font-size: 96px;
     font-weight: 900;
     text-align: center;
-    max-width: 720px;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__title {
+        width: calc((720 / 928) * 100%);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__title {
+        width: calc((720 / 768) * 100%);
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .lead__title {
+        font-size: calc(96px * .7);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__title {
+        max-width: 320px;
+        width: calc((288 / 320) * 100%);
+        line-height: 1.1;
+        font-size: 40px;
+    }
 }
