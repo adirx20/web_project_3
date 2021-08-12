@@ -1,0 +1,5 @@
+.header__lang-link-container {
+    display: flex;
+    gap: 18px;
+    align-self: flex-end;
+}

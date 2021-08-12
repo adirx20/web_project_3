@@ -2,8 +2,18 @@
     line-height: 1.17;
     font-size: 24px;
     font-weight: normal;
-    display: flex;
-    gap: 18px;
-    align-self: flex-end;
-    font-weight: normal;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.header__lang-link:active {
+    text-decoration: underline;
+}
+/* It seems like I have to use JS to make the link stay active after selection */
+
+@media screen and (max-width: 320px) {
+    .header__lang-link {
+        line-height: 1.11;
+        font-size: 18px;
+    }
 }
