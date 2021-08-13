@@ -9,6 +9,7 @@
 @media screen and (max-width: 1024px) {
     .intro {
         width: calc((690 / 1024) * 100%);
+        margin: 92px 0 0 48px;
     }
 }
 
@@ -16,6 +17,7 @@
     .intro {
         max-width: 720px;
         width: calc((720 / 768) * 100%);
+        margin: 88px auto 0;
     }
 }
 
@@ -23,5 +25,6 @@
     .intro {
         max-width: 288px;
         width: calc((288 / 320) * 100%);
+        margin: 64px auto 0;
     }
 }

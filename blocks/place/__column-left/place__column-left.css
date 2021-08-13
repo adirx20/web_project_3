@@ -1,0 +1,4 @@
+.place__column-left {
+    display: flex;
+    flex-direction: column;
+}
