@@ -13,6 +13,13 @@
     }
 }
 
+@media screen and (max-width: 530px) {
+    .place__website {
+        max-width: calc(530px * .7);
+        margin: 0 auto;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .place__website {
         max-width: 288px;

@@ -1,6 +1,44 @@
 .footer {
-    width: 1184px;
-    margin: 92px auto 0;
+    max-width: 1184px;
+    width: calc((1184 / 1280) * 100%);
+    margin: 0 auto;
+    padding: 92px 0 0;
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        max-width: 928px;
+        width: calc((928 / 1024) * 100%);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        max-width: 720px;
+        width: calc((720 / 768) * 100%);
+        padding-top: 88px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .footer {
+        margin: 0;
+        max-width: 230px;
+        width: calc((230 / 450) * 100%);
+        padding-top: 64px;
+        padding-left: 16px;
+        flex-direction: column;
+        gap: 48px;
+    }
+}
+    
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        max-width: 165px;
+        width: calc((165 / 320) * 100%);
+    }
 }

@@ -21,10 +21,17 @@
     }
 }
 
+@media screen and (max-width: 530px) {
+    .place__title {
+        max-width: calc(530px * .7);
+        line-height: 1.09;
+        font-size: 32px;
+        margin: 0 auto;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .place__title {
         max-width: 288px;
-        line-height: 1.09;
-        font-size: 32px;
     }
 }

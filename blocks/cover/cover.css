@@ -1,26 +1,37 @@
 .cover {
     max-width: 1184px;
-    margin: 92px auto 0;
+    width: calc((1184 / 1280) * 100%);
+    padding: 0;
+    height: 740px;
+    margin: 0 auto;
+    background-image: url('../../../images/cover_background.jpg');
+    background-size: cover;
+    background-position: center;
     display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 1024px) {
     .cover {
         max-width: 1024px;
-        margin: 92px 0 0;
+        width: 100%;
+        height: 640px;
+        margin: 0;
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover {
         max-width: 768px;
-        margin: 89px 0 0;
+        height: 480px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .cover {
         max-width: 320px;
-        margin: 64px 0 0;
+        height: 200px;
     }
 }
