@@ -1,4 +1,4 @@
-.place__website_type_link {
+.place__url-link {
     width: 100%;
     line-height: 1.22;
     font-size: 18px;
@@ -7,6 +7,6 @@
     transition: opacity .5s linear;
 }
 
-.place__website_type_link:hover {
+.place__url-link:hover {
     opacity: .8;
 }

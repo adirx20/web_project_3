@@ -3,7 +3,7 @@
     background-color: rgba(42, 44, 47, 1);
     margin: 0 auto;
     color: rgba(255, 255, 255, 1);
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     padding: 34px 0 24px;
     justify-content: center;
 }

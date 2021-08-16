@@ -6,55 +6,55 @@
   <link rel='stylesheet' href='./pages/index.css'>
   <title>From Portland to Portland</title>
 </head>
-<body>
-  <div class='page'>
+<body class='body'>
+  <div class='page'>  <!-- page block -->
 
-    <header class='header'>
+    <header class='header'>  <!-- header block -->
       <div class='header__logo'></div>
-        <div class='header__lang-link-container'>
+        <nav class='header__lang-link-container'>
           <a class='header__lang-link' href='http://localhost:5500/' target='_self'>En</a>
           <a class='header__lang-link' href='http://localhost:5500/' target='_self'>Es</a>
-        </div>  
+        </nav>  
     </header>
 
     <main class='content'>
 
-      <section class='lead'>
+      <section class='lead'>  <!-- lead block -->
         <h1 class='lead__title'>From Portland to Portland</h1>
         <p class='lead__subtitle'>An epic bicycle journey from Portland, ME. to Portland, OR</p>
         <img class='lead__image' src='./images/lead_kalegin-michail.jpg' alt='black and white picture of mountains'>
         <p class='lead__caption'>Your journey starts here</p>
       </section>
 
-      <section class='intro'>
+      <section class='intro'>  <!-- intro block -->
         <h2 class='intro__title'>Know the country you live in a little better</h2>
         <p class='intro__subtitle'>That's exactly what we have arranged for you via this travel story</p>
         <p class='intro__paragraph'>Need more action and adventure in your life instead of the same old routine? From Portland, Maine to Portland, Oregon we're going to take you on an exciting journey through some unknown regions of your country. Leave the car at home and travel by bike starting in New England where it all began. You will pass through 12 beautiful states, covering a total of 3,600 miles, and accomplish 3 monumental missions. Partying and taking a selfie with a famous rock star, donating $1 to a billionaire to help eradicate polio in Africa, and even stopping by famous author Stephen King's house to say hi and asking him to sign your favorite book.</p>
         <ul class='intro__list'>
           <li>
             <p>
-              <span class='intro__list intro__list_bold'>Distance (miles) </span>3,644
+              <span class='intro__span-bold'>Distance (miles) </span>3,644
             </p>
           </li>
           <li>
             <p>
-              <span class='intro__list intro__list_bold'>Travel time (days) </span>22
+              <span class='intro__span-bold'>Travel time (days) </span>22
             </p>
           </li>
           <li>
             <p>
-              <span class='intro__list intro__list_bold'>Highest point (feet) </span>9,613
+              <span class='intro__span-bold'>Highest point (feet) </span>9,613
             </p>
           </li>
           <li>
             <p>
-              <span class='intro__list intro__list_bold'>Lowest point (feet) </span>-3
+              <span class='intro__span-bold'>Lowest point (feet) </span>-3
             </p>
           </li>
         </ul>
       </section>
 
-      <section class='photo-grid'>
+      <section class='photo-grid'>  <!-- photo-grid block -->
           <img class='photo-grid__item' src='./images/photo-grid_item-00.jpg' alt='road near sea'>
           <img class='photo-grid__item' src='./images/photo-grid_item-01.jpg' alt='sea and sky'>
           <img class='photo-grid__item' src='./images/photo-grid_item-02.jpg' alt='birds flying'>
@@ -69,12 +69,12 @@
           <img class='photo-grid__item' src='./images/photo-grid_item-11.jpg' alt='long road in the wilderness'>
       </section>
 
-      <section class='places'>
+      <section class='places'>  <!-- places block -->
         <article class='place'>
           <h2 class='place__title'>Maine</h2>
           <div class='place__website'>
-            <p class='place__website place__website_type_url-heading'>URL</p>
-            <a class='place__website place__website_type_link hovering' href='https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1' target='_blank'>global.llbean.com</a>
+            <p class='place__url-heading'>URL</p>
+            <a class='place__url-link' href='https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1' target='_blank'>global.llbean.com</a>
           </div>
           <img class='place__image' src='./images/place_0-maine.jpg' alt='pier with lighthouse'>
           <div class='place__p-container'>
@@ -86,8 +86,8 @@
         <article class='place'>
           <h2 class='place__title'>New Hampshire</h2>
           <div class='place__website'>
-            <p class='place__website place__website_type_url-heading'>URL</p>
-            <a class='place__website place__website_type_link' href='https://www.timberland.com/timberlandpro.html' target='_blank'>timberland.com</a>
+            <p class='place__url-heading'>URL</p>
+            <a class='place__url-link' href='https://www.timberland.com/timberlandpro.html' target='_blank'>timberland.com</a>
           </div>
           <img class='place__image' src='./images/place_1-new-hampshire.jpg' alt='long river in the valley'>
           <div class='place__p-container'>
@@ -99,8 +99,8 @@
         <article class='place'>
           <h2 class='place__title'>New York</h2>
           <div class='place__website'>
-            <p class='place__website place__website_type_url-heading'>URL</p>
-            <a class='place__website place__website_type_link' href='https://www.ge.com/about-us' target='_blank'>ge.com</a>
+            <p class='place__url-heading'>URL</p>
+            <a class='place__url-link' href='https://www.ge.com/about-us' target='_blank'>ge.com</a>
           </div>
           <img class='place__image' src='./images/place_2-new-york.jpg' alt='road between big buildings'>
           <div class='place__p-container'>
@@ -111,8 +111,8 @@
         <article class='place'>
           <h2 class='place__title'>Erie, PA</h2>
           <div class='place__website'>
-            <p class='place__website place__website_type_url-heading'>URL</p>
-            <a class='place__website place__website_type_link' href='https://www.fws.gov/refuge/erie' target='_blank'>fws.gov</a>
+            <p class='place__url-heading'>URL</p>
+            <a class='place__url-link' href='https://www.fws.gov/refuge/erie' target='_blank'>fws.gov</a>
           </div>
           <img class='place__image' src='./images/place_3-erie-pa.jpg' alt='building with waterfalls in the forest'>
           <div class='place__p-container'>
@@ -124,8 +124,8 @@
         <article class='place'>
           <h2 class='place__title'>Ohio</h2>
           <div class='place__website'>
-            <p class='place__website place__website_type_url-heading'>URL</p>
-            <a class='place__website place__website_type_link' href='https://www.cedarpoint.com' target='_blank'>cedarpoint.com</a>
+            <p class='place__url-heading'>URL</p>
+            <a class='place__url-link' href='https://www.cedarpoint.com' target='_blank'>cedarpoint.com</a>
           </div>
           <img class='place__image' src='./images/place_4-ohio.jpg' alt='huge wind turbine'>
           <div class='place__p-container'>
@@ -135,7 +135,7 @@
         </article>
       </section>
 
-      <section class='cover'>
+      <section class='cover'>  <!-- cover block -->
           <a class='cover__link' href='https://www.nps.gov/nr/travel/route66/maps66.html' target='_blank'>
             <div class='cover__text-container'>
               <h2 class='cover__title'>Historic Route 66</h2>
@@ -146,7 +146,7 @@
 
     </main>
 
-    <footer class='footer'>
+    <footer class='footer'>  <!-- footer block -->
       <nav class='footer__link-container'>
         <a class='footer__link' href='https://yandex.com/maps' target='_blank'>Maps</a>
         <a class='footer__link' href='https://yandex.com/weather/moscow' target='_blank'>Weather</a>
