@@ -25,6 +25,9 @@ The links in this project react when the user hovering them and the photo grids 
 * Places - Small explanation and suggestion about some milestones you will come across.
 * Cover - Link for more details about Route 66.
 * Footer - Maps, weather and calendar nav bar and copyrights.
+* Techniques - I used flexbox and grid to style the layout of the webpage.
+  I used Media queries to adjust the webpage to different devices.
+  I wrote the webpage following BEM structure.
 
 **Future Upgrades**
 

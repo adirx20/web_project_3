@@ -3,6 +3,8 @@
     line-height: 2.0;
     font-size: 12px;
     font-weight: normal;
+    letter-spacing: 0.2em;
     color: rgba(170, 170, 170, 1);
     margin: 0 0 4px;
+    text-transform: uppercase;
 }

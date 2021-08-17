@@ -14,3 +14,20 @@
         font-size: 16px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .cover__subtitle {
+        font-size: 14px;
+        text-align: center;
+        display: block;
+    }
+    
+    span.cover__subtitle {
+        display: inline-block;
+        white-space: nowrap;
+    }
+}
+
+p.cover__subtitle {
+    margin: 0;
+}
